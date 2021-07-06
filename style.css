@@ -2,6 +2,36 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
+li {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  /* font-weight: bolder; */
+  color: orange;
+}
+.header {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+
+  justify-content: space-between;
+  align-items: center;
+  padding-inline-end: 30px 10px;
+  margin-bottom: 50px;
+}
+.nav_links {
+  list-style-type: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0 40px;
+  color: tomato;
+  font-weight: bold;
+}
+span {
+  color: tomato;
+}
 .banner1 {
   display: flex;
   margin-bottom: 70px;
@@ -20,12 +50,8 @@ body {
 img {
   width: 80%;
 }
-a {
-  background-image: linear-gradient(
-    to right,
-    rgb(0, 162, 255),
-    rgb(28, 28, 238)
-  );
+.anchor1 {
+  background-image: linear-gradient(to right, orange, tomato);
   background-repeat: no-repeat;
   margin-top: 50px;
   padding: 10px 20px;
@@ -33,12 +59,12 @@ a {
   color: aliceblue;
   font-weight: 700;
   border-radius: 5px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 1), 0 1px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.4);
 }
 .banner2 {
   display: flex;
   height: fit-content;
-  background-image: url(Frame\ 57.jpg);
+  background-image: url(Frame\ 58.jpg);
   background-repeat: no-repeat;
   margin-bottom: 100px;
 }
