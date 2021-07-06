@@ -2,13 +2,13 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
-li {
+li a {
   text-decoration: none;
 }
 a {
   text-decoration: none;
   /* font-weight: bolder; */
-  color: orange;
+  color: tomato;
 }
 .header {
   display: flex;
@@ -30,7 +30,7 @@ a {
   font-weight: bold;
 }
 span {
-  color: tomato;
+  color: orange;
 }
 .banner1 {
   display: flex;
